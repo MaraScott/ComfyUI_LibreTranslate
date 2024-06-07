@@ -1,8 +1,10 @@
-# ComfyUI_LibreTranslation
+# ComfyUI_LibreTranslate
 Use LibreTranslation in ComfyUI
-
 https://github.com/LibreTranslate/LibreTranslate
 
+1- Copy the node to ``ComfyUI\custom_nodes``
+
+2- Install LibreTranslate
 ``pip install libretranslate``
 
 Before using the node, run ``libretranslate`` from the command line.
