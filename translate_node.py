@@ -4,11 +4,11 @@ import numpy as np
 import requests
 
 names = ['English','Albanian','Arabic','Azerbaijani','Bengali','Bulgarian','Catalan','Chinese','Chinese (traditional)',
-        'Czech','Danish','Dutch','Esperanto','Estonian','Finnish','French','German','Greek','Hebrew','Hindi','Hungarian','Indonesian',
+        'Czech','Danish','Dutch','Esperanto','Estonian','Finnish','French','German','Greek','Hindi','Hungarian','Indonesian',
         'Irish','Italian','Japanese','Korean','Latvian','Lithuanian','Malay','Norwegian','Persian','Polish','Portuguese','Romanian',
         'Russian','Slovak','Slovenian','Spanish','Swedish','Tagalog','Thai','Turkish','Ukranian','Urdu']
 
-codes = ['en', 'sq', 'ar', 'az', 'bn', 'bg', 'ca', 'zh', 'zt', 'cs', 'da', 'nl', 'eo', 'et', 'fi', 'fr', 'de', 'el', 'he', 'hi', 'hu', 'id', 'ga', 'it',
+codes = ['en', 'sq', 'ar', 'az', 'bn', 'bg', 'ca', 'zh', 'zt', 'cs', 'da', 'nl', 'eo', 'et', 'fi', 'fr', 'de', 'el', 'hi', 'hu', 'id', 'ga', 'it',
          'ja', 'ko', 'lv', 'lt', 'ms', 'nb', 'fa', 'pl', 'pt', 'ro', 'ru', 'sk', 'sl', 'es', 'sv', 'tl', 'th', 'tr', 'uk', 'ur']
  
 # Mapping language names to codes
