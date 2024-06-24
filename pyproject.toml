@@ -1,7 +1,7 @@
 [project]
 name = "comfyui_libretranslate"
 description = "Use LibreTranslation in ComfyUI [a/https://github.com/LibreTranslate/LibreTranslate](https://github.com/LibreTranslate/LibreTranslate)"
-version = "1.0.0"
+version = "1.0.1"
 license = "LICENSE"
 
 [project.urls]
