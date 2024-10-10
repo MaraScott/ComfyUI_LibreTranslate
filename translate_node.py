@@ -21,7 +21,9 @@ def translate_text(text, source_code, target_code):
         "q": text,
         "source": source_code,  # Use language code
         "target": target_code,  # Use language code
-        "format": "text"
+        "format": "text",
+		"alternatives": 3,
+		"api_key": ""
     }
 
     try:
@@ -66,7 +68,7 @@ class LibreTranslate:
             translated_text = translate_text(text, source_code, target_code)
         else:
             translated_text = "Error: Invalid language selection."
-        return ([translated_text],)
+        return (translated_text,)
 
 # Define node mappings for ComfyUI
 NODE_CLASS_MAPPINGS = {
